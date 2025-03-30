@@ -1,13 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  min-width: 1400px;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
   letter-spacing: -0.03em;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 header {
-  min-width: 1400px;
   height: 788px;
   background-image: url("../resources/caffee-house.png");
   background-repeat: no-repeat;
@@ -32,7 +38,7 @@ nav {
 }
 
 .wrapper-logo__text {
-  padding-left: 4px;
+  padding-left: 5px;
   position: absolute;
   color: #1bff07;
   font-size: 42.41px;
@@ -40,13 +46,13 @@ nav {
   line-height: 55px;
 }
 
-ul {
+.nav-link-list {
   display: inline-block;
   vertical-align: top;
   margin-top: 36px;
 }
 
-li {
+.link {
   display: inline-block;
 }
 
@@ -78,4 +84,69 @@ h1 {
   font-size: 80px;
   font-weight: 400;
   line-height: 70px;
+}
+
+.projects {
+  margin: 150px 125px 150px 125px;
+}
+
+h2 {
+  padding-bottom: 41px;
+  font-size: 55px;
+  line-height: 72px;
+}
+
+.project-realhome,
+.project-glass,
+.project-fesiyen {
+  height: 550px;
+  background-image: url(../resources/realhome-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.project-glass {
+  background-image: url(../resources/glass-img.png);
+}
+
+.project-fesiyen {
+  background-image: url(../resources/fesiyen-img.png);
+  margin-bottom: 80px;
+}
+
+.project__titile {
+  position: absolute;
+  bottom: 94px;
+  margin-left: 50px;
+  font-size: 35px;
+  line-height: 46px;
+}
+
+.project__text {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 50px;
+  font-size: 30px;
+  line-height: 39px;
+}
+
+.all-projects {
+  display: block;
+  width: 582px;
+  height: 153px;
+  background-color: #1bff07;
+  border-radius: 10px;
+  border: 1px solid #1bff07;
+  color: #000000;
+  font-size: 30px;
+  line-height: 153px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.all-projects:hover {
+  background-color: #000000;
+  color: #1bff07;
 }
