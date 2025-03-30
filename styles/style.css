@@ -1,0 +1,81 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  letter-spacing: -0.03em;
+}
+
+header {
+  min-width: 1400px;
+  height: 788px;
+  background-image: url("../resources/caffee-house.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  margin-bottom: 259px;
+}
+
+.wrapper-logo {
+  width: 190px;
+  height: 57px;
+  margin: 36px 475px 0 123px;
+  position: relative;
+  background-image: url("../resources/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrapper-logo__text {
+  padding-left: 4px;
+  position: absolute;
+  color: #1bff07;
+  font-size: 42.41px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 36px;
+}
+
+li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: #ffff;
+  font-size: 18px;
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+.nav-link:hover {
+  color: #1bff07;
+}
+
+.about-me {
+  margin-bottom: 29px;
+  margin-left: 125px;
+  width: 350px;
+  height: 103px;
+  color: #ffff;
+  line-height: 26px;
+}
+
+h1 {
+  margin-left: 119px;
+  width: 1000px;
+  height: 205px;
+  color: #1bff07;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 70px;
+}
