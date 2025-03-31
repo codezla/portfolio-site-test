@@ -110,6 +110,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  border-radius: 0px 0px 30px 30px;
 }
 
 .project-glass {
@@ -160,16 +161,16 @@ h3 {
   color: #1bff07;
 }
 
-.competencies {
-  margin-left: 123px;
-  margin-right: 499px;
+.competencies,
+.tasks {
+  margin: 0 499px 150px 123px;
 }
 
 .competencies h2 {
   margin-bottom: 49px;
 }
 
-img {
+.competencies img {
   margin-left: 2px;
   margin-bottom: 16px;
   width: 45px;
@@ -188,4 +189,42 @@ img {
 .competencies p {
   margin-bottom: 60px;
   width: 778px;
+}
+
+.tasks {
+  margin-right: 125px;
+}
+
+.tasks h2 {
+  margin-bottom: 74px;
+  width: 415px;
+  font-size: 35px;
+  line-height: 46px;
+}
+
+.tasks li {
+  margin-bottom: 74px;
+}
+
+.tasks img {
+  width: 1150px;
+  height: 200px;
+}
+
+.wrapper-text {
+  width: 1150px;
+  height: 283px;
+  background-color: #191c19;
+  border-radius: 30px;
+}
+
+.tasks h3 {
+  padding: 40px 0 16px 40px;
+  color: #1bff07;
+  font-size: 55px;
+  line-height: 72px;
+}
+
+.tasks p {
+  margin: 0 373px 0 40px;
 }
