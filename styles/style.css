@@ -235,8 +235,9 @@ address {
   background-color: #191c19;
   border-radius: 30px;
   padding: 0;
-  height: 717px; /* Высота изображения */
-  overflow: hidden; /* Для соблюдения border-radius */
+  height: 717px;
+  overflow: hidden;
+  font-family: Manrope;
 }
 
 .wrapper {
@@ -253,6 +254,7 @@ address h2 {
 
 address a {
   margin-bottom: 19px;
+  width: 275px;
   display: block;
   text-decoration: none;
   color: #ffffff;
@@ -272,4 +274,24 @@ address img {
   object-fit: cover;
   border-radius: 30px;
   z-index: 1;
+}
+
+footer {
+  padding-left: 125px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 30px 30px 0 0;
+}
+
+footer h2 {
+  padding-top: 76px;
+  padding-bottom: 66px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+footer p {
+  padding-bottom: 30px;
+  font-size: 20px;
+  line-height: 27px;
 }
