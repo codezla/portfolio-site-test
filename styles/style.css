@@ -22,7 +22,7 @@ header {
 }
 
 nav {
-  margin-bottom: 259px;
+  margin-bottom: 250px;
 }
 
 .wrapper-logo {
@@ -67,12 +67,18 @@ nav {
   color: #1bff07;
 }
 
+p {
+  font-size: 22px;
+  line-height: 29px;
+}
+
 .about-me {
   margin-bottom: 29px;
   margin-left: 125px;
-  width: 350px;
+  width: 430px;
   height: 103px;
   color: #ffff;
+  font-size: 20px;
   line-height: 26px;
 }
 
@@ -115,15 +121,18 @@ h2 {
   margin-bottom: 80px;
 }
 
-.project__titile {
-  position: absolute;
-  bottom: 94px;
-  margin-left: 50px;
+h3 {
   font-size: 35px;
   line-height: 46px;
 }
 
-.project__text {
+.projects h3 {
+  position: absolute;
+  bottom: 94px;
+  margin-left: 50px;
+}
+
+.projects h4 {
   position: absolute;
   bottom: 50px;
   margin-left: 50px;
@@ -149,4 +158,34 @@ h2 {
 .all-projects:hover {
   background-color: #000000;
   color: #1bff07;
+}
+
+.competencies {
+  margin-left: 123px;
+  margin-right: 499px;
+}
+
+.competencies h2 {
+  margin-bottom: 49px;
+}
+
+img {
+  margin-left: 2px;
+  margin-bottom: 16px;
+  width: 45px;
+  height: 44px;
+}
+
+.competencies h3 {
+  color: #1bff07;
+  margin-bottom: 15px;
+}
+
+.competencies li:last-child h3 {
+  width: 651px;
+}
+
+.competencies p {
+  margin-bottom: 60px;
+  width: 778px;
 }
