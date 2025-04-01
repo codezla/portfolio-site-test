@@ -8,9 +8,17 @@ body {
   font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
-  letter-spacing: -0.03em;
   color: #ffffff;
   background-color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  letter-spacing: -0.03em;
 }
 
 header {
@@ -22,13 +30,13 @@ header {
 }
 
 nav {
-  margin-bottom: 250px;
+  margin-bottom: 242px;
 }
 
 .wrapper-logo {
   width: 190px;
   height: 57px;
-  margin: 36px 475px 0 123px;
+  margin: 36px 451px 0 123px;
   position: relative;
   background-image: url("../resources/logo.png");
   background-repeat: no-repeat;
@@ -60,11 +68,19 @@ nav {
   color: #ffff;
   font-size: 18px;
   text-decoration: none;
-  padding-right: 50px;
+  padding-right: 41px;
 }
 
 .nav-link:hover {
   color: #1bff07;
+}
+
+#portfolio-link,
+#competencies-link,
+#tasks-link,
+#contacts-link,
+#projects-link {
+  scroll-margin-top: 15vh;
 }
 
 p {
@@ -93,13 +109,17 @@ h1 {
 }
 
 .projects {
-  margin: 150px 125px 150px 125px;
+  margin: 127px 166px 150px 125px;
 }
 
 h2 {
   padding-bottom: 41px;
   font-size: 55px;
   line-height: 72px;
+}
+
+.projects h2 {
+  margin-left: -4px;
 }
 
 .project-realhome,
@@ -143,14 +163,14 @@ h3 {
 
 .all-projects {
   display: block;
-  width: 582px;
-  height: 153px;
+  width: 578px;
+  height: 150px;
   background-color: #1bff07;
   border-radius: 10px;
   border: 1px solid #1bff07;
   color: #000000;
   font-size: 30px;
-  line-height: 153px;
+  line-height: 148px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
@@ -163,16 +183,16 @@ h3 {
 
 .competencies,
 .tasks {
-  margin: 0 499px 150px 123px;
+  margin: 0 499px 155px 123px;
 }
 
 .competencies h2 {
-  margin-bottom: 49px;
+  margin-bottom: 7px;
 }
 
 .competencies img {
   margin-left: 2px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   width: 45px;
   height: 44px;
 }
@@ -188,15 +208,16 @@ h3 {
 
 .competencies p {
   margin-bottom: 60px;
-  width: 778px;
+  width: 776px;
 }
 
 .tasks {
   margin-right: 125px;
+  margin-bottom: 147px;
 }
 
 .tasks h2 {
-  margin-bottom: 74px;
+  margin-bottom: 32px;
   width: 415px;
   font-size: 35px;
   line-height: 46px;
@@ -204,6 +225,10 @@ h3 {
 
 .tasks li {
   margin-bottom: 74px;
+}
+
+.tasks li:nth-last-child(2) {
+  margin-bottom: 134px;
 }
 
 .tasks img {
@@ -219,7 +244,7 @@ h3 {
 }
 
 .tasks h3 {
-  padding: 40px 0 16px 40px;
+  padding: 36px 0 16px 40px;
   color: #1bff07;
   font-size: 55px;
   line-height: 72px;
@@ -258,8 +283,10 @@ address a {
   display: block;
   text-decoration: none;
   color: #ffffff;
-  font-size: 60px;
-  line-height: 60px;
+  font-family: IBM Plex Mono;
+  font-size: 36.27px;
+  font-weight: 400;
+  line-height: 36.27px;
 }
 
 address a:hover {
