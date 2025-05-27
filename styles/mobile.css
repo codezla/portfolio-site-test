@@ -4,11 +4,11 @@
     background-image: url(../resources/caffee-house__mobile.png);
   }
 
-  .header-inner {
+  .container {
     margin-right: 12px;
   }
 
-  nav {
+  .nav {
     margin-bottom: 267px;
   }
 

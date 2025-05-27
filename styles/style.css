@@ -22,6 +22,10 @@ p {
   letter-spacing: -0.03em;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   height: 765px;
   background-image: url("../resources/caffee-house.png");
@@ -30,13 +34,13 @@ header {
   position: relative;
 }
 
-.header-inner {
+.container {
   padding-top: 33px;
   margin-left: 119px;
   margin-right: 124px;
 }
 
-nav {
+.nav {
   margin-left: 4px;
   margin-bottom: 259px;
 }
@@ -46,7 +50,8 @@ nav {
   justify-content: space-between;
 }
 
-.wrapper-logo {
+.wrapper-logo,
+.burger-logo {
   margin-left: 4px;
   margin-top: 3px;
   width: 190px;
@@ -57,7 +62,7 @@ nav {
   background-size: cover;
 }
 
-.wrapper-logo__text {
+.logo-text {
   padding-left: 7px;
   position: absolute;
   color: #1bff07;
@@ -74,7 +79,6 @@ nav {
 .nav-link {
   color: #ffff;
   font-size: 18px;
-  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -111,6 +115,99 @@ h1 {
   font-size: 80px;
   font-weight: 400;
   line-height: 70px;
+}
+
+.burger-btn {
+  display: none;
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.burger__open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.burger-content {
+  width: 362px;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #000000;
+  transform: translateX(100%);
+  transition: transform 0.5s ease;
+  position: absolute;
+  right: 0;
+}
+
+.burger__open .burger-content {
+  transform: translateX(0);
+}
+
+.burger-logo {
+  margin-top: 64px;
+  margin-bottom: 44px;
+  margin-left: 28px;
+  border: 1px solid #1bff07;
+  border-radius: 100px;
+}
+
+.burger-link-list {
+  margin-left: 37px;
+  margin-bottom: 91px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+}
+
+.burger-link {
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 33px;
+  color: #ffff;
+}
+
+.burger-link:hover {
+  color: #1bff07;
+}
+
+.burger-contacts {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.burger-contacts-text {
+  font-size: 16px;
+  line-height: 21px;
+  opacity: 0.5;
+}
+
+.burger-contacts-link {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 45.62px;
+}
+
+.burger-contacts-link:hover {
+  color: #1bff07;
+}
+
+.body__fixed {
+  overflow: hidden;
 }
 
 .projects {
@@ -259,7 +356,7 @@ h3 {
   margin: 0 373px 0 40px;
 }
 
-address {
+.contacts {
   margin-bottom: 150px;
   margin-right: 40px;
   position: relative;
@@ -278,13 +375,13 @@ address {
   z-index: 2;
 }
 
-address h2 {
+.contacts h2 {
   font-size: 35px;
   line-height: 60px;
   padding-bottom: 29px;
 }
 
-address a {
+.contacts a {
   margin-bottom: 19px;
   width: 275px;
   display: block;
@@ -294,11 +391,11 @@ address a {
   line-height: 60px;
 }
 
-address a:hover {
+.contacts a:hover {
   color: #1bff07;
 }
 
-address img {
+.contacts img {
   position: absolute;
   right: 0;
   top: 0;
