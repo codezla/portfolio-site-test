@@ -1,0 +1,28 @@
+@media (max-width: 767px) {
+  header {
+    height: 716px;
+    background-image: url(../resources/caffee-house__mobile.png);
+  }
+
+  .header-inner {
+    margin-right: 12px;
+  }
+
+  nav {
+    margin-bottom: 267px;
+  }
+
+  .about-me {
+    margin-left: 2px;
+    margin-bottom: 10px;
+    width: 310px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 47px;
+  }
+}

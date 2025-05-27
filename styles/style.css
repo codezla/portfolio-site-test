@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  min-width: 1400px;
+  width: 1400px;
+  margin: 0 auto;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
@@ -22,31 +23,42 @@ p {
 }
 
 header {
-  height: 788px;
+  height: 765px;
   background-image: url("../resources/caffee-house.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
+.header-inner {
+  padding-top: 33px;
+  margin-left: 119px;
+  margin-right: 124px;
+}
+
 nav {
-  margin-bottom: 242px;
+  margin-left: 4px;
+  margin-bottom: 259px;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
 }
 
 .wrapper-logo {
+  margin-left: 4px;
+  margin-top: 3px;
   width: 190px;
   height: 57px;
-  margin: 36px 451px 0 123px;
   position: relative;
   background-image: url("../resources/logo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .wrapper-logo__text {
-  padding-left: 5px;
+  padding-left: 7px;
   position: absolute;
   color: #1bff07;
   font-size: 42.41px;
@@ -55,20 +67,14 @@ nav {
 }
 
 .nav-link-list {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 36px;
-}
-
-.link {
-  display: inline-block;
+  display: flex;
+  column-gap: 50px;
 }
 
 .nav-link {
   color: #ffff;
   font-size: 18px;
   text-decoration: none;
-  padding-right: 41px;
 }
 
 .nav-link:hover {
@@ -89,8 +95,8 @@ p {
 }
 
 .about-me {
+  margin-left: 6px;
   margin-bottom: 29px;
-  margin-left: 125px;
   width: 430px;
   height: 103px;
   color: #ffff;
@@ -99,8 +105,7 @@ p {
 }
 
 h1 {
-  margin-left: 119px;
-  width: 1000px;
+  width: 919px;
   height: 205px;
   color: #1bff07;
   font-size: 80px;

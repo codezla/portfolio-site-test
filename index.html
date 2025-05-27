@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio site</title>
+
+    <link rel="icon" href="resources/logo-html.png" type="image/png" />
 
     <link rel="stylesheet" href="styles/reset.css" />
 
@@ -14,35 +17,49 @@
     />
 
     <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="styles/tablet.css"
+      media="(max-width: 1199px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/mobile.css"
+      media="(max-width: 767px)"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <div class="wrapper-logo">
-          <p class="wrapper-logo__text">CodeZla</p>
-        </div>
-        <ul class="nav-link-list">
-          <li class="link">
-            <a href="#portfolio-link" class="nav-link">портфолио</a>
-          </li>
-          <li class="link">
-            <a href="#competencies-link" class="nav-link">компетенции</a>
-          </li>
-          <li class="link">
-            <a href="#tasks-link" class="nav-link">услуги</a>
-          </li>
-          <li class="link">
-            <a href="#contacts-link" class="nav-link">контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <p class="about-me" id="portfolio-link">
-        Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
-        повышают престиж компании и позволяют выделиться на фоне конкурентов
-      </p>
-      <h1>Привет, я CodeZla — фронтенд разарботчик и дизайнер сайтов</h1>
+      <div class="header-inner">
+        <nav>
+          <div class="nav-inner">
+            <div class="wrapper-logo">
+              <p class="wrapper-logo__text">CodeZla</p>
+            </div>
+            <ul class="nav-link-list">
+              <li>
+                <a href="#portfolio-link" class="nav-link">портфолио</a>
+              </li>
+              <li>
+                <a href="#competencies-link" class="nav-link">компетенции</a>
+              </li>
+              <li>
+                <a href="#tasks-link" class="nav-link">услуги</a>
+              </li>
+              <li>
+                <a href="#contacts-link" class="nav-link">контакты</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <p class="about-me" id="portfolio-link">
+          Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+          повышают престиж компании и позволяют выделиться на фоне конкурентов
+        </p>
+        <h1>Привет, я CodeZla — фронтенд разарботчик и дизайнер сайтов</h1>
+      </div>
     </header>
-    <main>
+    <!--<main>
       <section class="projects" id="projects-link">
         <h2>Самые свежие проекты</h2>
         <ul>
@@ -168,6 +185,6 @@
     <footer>
       <h2>Портфолио фронтенд-разработчика CodeZla®</h2>
       <p>Все права защищены. 2025</p>
-    </footer>
+    </footer>-->
   </body>
 </html>
