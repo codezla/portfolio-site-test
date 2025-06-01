@@ -127,6 +127,44 @@
     line-height: 23px;
   }
 
+  .tasks {
+    margin-bottom: 110px;
+  }
+
+  .tasks-text {
+    margin-bottom: 60px;
+    margin-left: 5px;
+    font-size: 28.3px;
+    line-height: 37px;
+  }
+
+  .tasks-list {
+    margin-left: 5px;
+    row-gap: 32px;
+  }
+
+  .tasks img {
+    height: 162px;
+    width: 100%;
+  }
+
+  .tasks-wrapper {
+    height: 100%;
+    padding: 32px 36px 55px 32px;
+  }
+
+  .tasks-wrapper-header {
+    width: calc(40%);
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .tasks-wrapper-text {
+    width: calc(44%);
+    font-size: 18px;
+    line-height: 23px;
+  }
+
   .burger-btn {
     position: absolute;
     display: block;

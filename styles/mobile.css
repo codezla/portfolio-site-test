@@ -117,4 +117,37 @@
     margin-left: 3px;
     margin-bottom: 12px;
   }
+
+  .tasks {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .tasks-text {
+    width: 100%;
+  }
+
+  .tasks-list {
+    row-gap: 60px;
+  }
+
+  .tasks img {
+    height: 225px;
+  }
+
+  .tasks-wrapper {
+    padding: 30px 23px 60px 21px;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .tasks-wrapper-header {
+    width: 100%;
+    font-size: 35px;
+    line-height: 39px;
+  }
+
+  .tasks-wrapper-text {
+    width: 100%;
+  }
 }

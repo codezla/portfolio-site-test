@@ -13,6 +13,10 @@ body {
   background-color: #000000;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -360,46 +364,46 @@ h3 {
 }
 
 .tasks {
-  margin-right: 125px;
-  margin-bottom: 147px;
+  margin-bottom: 150px;
 }
 
-.tasks h2 {
-  margin-bottom: 32px;
+.tasks-text {
+  margin-bottom: 80px;
+  margin-left: 6px;
   width: 415px;
   font-size: 35px;
   line-height: 46px;
 }
 
-.tasks li {
-  margin-bottom: 74px;
-}
-
-.tasks li:nth-last-child(2) {
-  margin-bottom: 134px;
+.tasks-list {
+  margin-left: 6px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
 
 .tasks img {
-  width: 1150px;
   height: 200px;
 }
 
-.wrapper-text {
-  width: 1150px;
+.tasks-wrapper {
   height: 283px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 45px 64px 40px;
   background-color: #191c19;
   border-radius: 30px;
 }
 
-.tasks h3 {
-  padding: 36px 0 16px 40px;
+.tasks-wrapper-header {
+  width: calc(42%);
   color: #1bff07;
   font-size: 55px;
-  line-height: 72px;
+  line-height: 61px;
 }
 
-.tasks p {
-  margin: 0 373px 0 40px;
+.tasks-wrapper-text {
+  width: calc(46%);
 }
 
 .contacts {
