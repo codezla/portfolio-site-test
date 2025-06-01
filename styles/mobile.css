@@ -26,16 +26,18 @@
     line-height: 47px;
   }
 
+  h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
   .projects {
     margin-top: 100px;
-    margin-bottom: 100px;
   }
 
   .projects-text {
     margin-left: 1px;
     margin-bottom: 34px;
-    font-size: 30px;
-    line-height: 39px;
   }
 
   .fresh-projects {
@@ -92,5 +94,27 @@
     height: 80px;
     font-size: 18px;
     line-height: 80px;
+  }
+
+  .competencies {
+    margin-top: 100px;
+  }
+
+  .compet-text {
+    font-size: 45px;
+    line-height: 58px;
+  }
+
+  .compet-list {
+    row-gap: 60px;
+  }
+
+  .compet-list-item {
+    width: 100%;
+  }
+
+  .competencies img {
+    margin-left: 3px;
+    margin-bottom: 12px;
   }
 }

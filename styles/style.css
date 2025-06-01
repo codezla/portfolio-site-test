@@ -212,7 +212,6 @@ h1 {
 
 .projects {
   margin-top: 150px;
-  margin-bottom: 150px;
 }
 
 h2 {
@@ -324,32 +323,40 @@ h3 {
 
 .competencies,
 .tasks {
-  margin: 0 499px 155px 123px;
+  margin-top: 150px;
 }
 
-.competencies h2 {
-  margin-bottom: 7px;
+.compet-text {
+  margin-bottom: 80px;
+  margin-left: 4px;
+}
+
+.compet-list {
+  margin-left: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+
+.compet-list-item {
+  width: calc(50% - 5px);
 }
 
 .competencies img {
-  margin-left: 2px;
-  margin-bottom: 12px;
+  margin-left: 3px;
+  margin-bottom: 15px;
   width: 45px;
   height: 44px;
 }
 
-.competencies h3 {
+.compet-header {
   color: #1bff07;
   margin-bottom: 15px;
 }
 
-.competencies li:last-child h3 {
-  width: 651px;
-}
-
-.competencies p {
-  margin-bottom: 60px;
-  width: 776px;
+.compet-header-other {
+  margin-bottom: 64px;
 }
 
 .tasks {
