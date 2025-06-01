@@ -35,12 +35,12 @@ header {
 }
 
 .container {
-  padding-top: 33px;
   margin-left: 119px;
   margin-right: 124px;
 }
 
 .nav {
+  padding-top: 33px;
   margin-left: 4px;
   margin-bottom: 259px;
 }
@@ -211,37 +211,43 @@ h1 {
 }
 
 .projects {
-  margin: 127px 166px 150px 125px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 h2 {
-  padding-bottom: 41px;
   font-size: 55px;
   line-height: 72px;
 }
 
-.projects h2 {
-  margin-left: -4px;
+.projects-text {
+  margin-left: 1px;
+  margin-bottom: 41px;
 }
 
-.project-realhome,
-.project-glass,
-.project-fesiyen {
+.project-sample {
+  margin-left: 6px;
   height: 550px;
-  background-image: url(../resources/realhome-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border-radius: 0px 0px 30px 30px;
+  border-radius: 30px;
 }
 
-.project-glass {
-  background-image: url(../resources/glass-img.png);
-}
-
-.project-fesiyen {
-  background-image: url(../resources/fesiyen-img.png);
+.fresh-projects {
   margin-bottom: 80px;
+}
+
+.project-metrica {
+  background-image: url(../resources/metrica-img.png);
+}
+
+.project-nothing {
+  background-image: url(../resources/nothing-img.png);
+}
+
+.project-toptrip {
+  background-image: url(../resources/toptrip-img.png);
 }
 
 h3 {
@@ -263,8 +269,41 @@ h3 {
   line-height: 39px;
 }
 
+.project-descript-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  left: 50px;
+  height: 47px;
+  background-color: #1bff07;
+  border-radius: 100px;
+}
+
+.wrapper-1 {
+  left: 45px;
+  width: 206px;
+}
+
+.wrapper-2 {
+  width: 245px;
+}
+
+.wrapper-3 {
+  width: 212px;
+}
+
+.project-descript {
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "Manrope";
+  color: #000;
+}
+
 .all-projects {
   display: block;
+  margin-left: 6px;
   width: 578px;
   height: 150px;
   background-color: #1bff07;
