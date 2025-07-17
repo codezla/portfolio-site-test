@@ -150,4 +150,45 @@
   .tasks-wrapper-text {
     width: 100%;
   }
+
+  .contacts {
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 12px;
+    height: 428px;
+  }
+
+  .order_from {
+    width: 100%;
+    row-gap: 15px;
+  }
+
+  .contacts h2 {
+    width: 100%;
+    font-size: 35px;
+    line-height: 37.33px;
+  }
+
+  .contacts .container {
+    margin-left: 21px;
+    margin-right: 27px;
+  }
+
+  .input {
+    padding-left: 21px;
+    height: 38px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .send-form {
+    margin-top: 25px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .contacts-image {
+    display: none;
+  }
 }

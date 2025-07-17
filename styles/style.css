@@ -407,8 +407,7 @@ h3 {
 }
 
 .contacts {
-  margin-bottom: 150px;
-  margin-right: 40px;
+  margin-bottom: 10px;
   position: relative;
   background-color: #191c19;
   border-radius: 30px;
@@ -418,20 +417,63 @@ h3 {
   font-family: IBM Plex Mono;
 }
 
+.contacts .container {
+  margin-right: 0;
+}
+
 .wrapper {
-  margin-top: 320px;
-  margin-left: 124px;
+  margin-left: 3px;
   position: relative;
   z-index: 2;
 }
 
-.contacts h2 {
-  font-size: 35px;
-  line-height: 60px;
-  padding-bottom: 29px;
+.contacts-text {
+  position: absolute;
+  top: 100px;
 }
 
-.contacts a {
+.contacts h2 {
+  margin-bottom: 59px;
+  font-size: 60px;
+  line-height: 60px;
+  width: 553px;
+}
+
+.order_from {
+  display: flex;
+  flex-direction: column;
+  width: 567px;
+  row-gap: 26px;
+}
+
+.input {
+  padding-left: 40px;
+  height: 60px;
+  border-radius: 1000px;
+  background-color: #3b3d3b;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 29px;
+  font-family: IBM Plex Mono;
+  border: none;
+}
+
+.input::placeholder {
+  color: #ffffff;
+}
+
+.send-form {
+  margin-top: 34px;
+  width: 450px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #1bff07;
+  font-family: IBM Plex Mono;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+/* .contacts a {
   margin-bottom: 19px;
   width: 275px;
   display: block;
@@ -439,17 +481,13 @@ h3 {
   color: #ffffff;
   font-size: 60px;
   line-height: 60px;
-}
-
-.contacts a:hover {
-  color: #1bff07;
-}
+} */
 
 .contacts img {
   position: absolute;
-  right: 0;
+  right: -212px;
   top: 0;
-  width: 727px;
+  height: 749px;
   object-fit: cover;
   border-radius: 30px;
   z-index: 1;
